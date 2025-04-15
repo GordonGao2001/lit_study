@@ -29,4 +29,4 @@ sudo echo 'dbms.security.procedures.unrestricted=apoc.*' >> /etc/neo4j/neo4j.con
 sudo systemctl restart neo4j
 sudo systemctl status neo4j
 
-echo 'NEO4J VERSION IS 1:2025.01.0 AND HAS IT'S ACCORDINGLY CONF, NOT FUTUREPROOF!!!!'
+echo "NEO4J VERSION IS 1:2025.01.0 AND HAS IT'S ACCORDINGLY CONFIG, NOT FUTUREPROOF!!!!"
